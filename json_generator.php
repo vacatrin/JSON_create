@@ -6,7 +6,7 @@
 
 	for ($i=1; $i <=$n; $i++)
 	{
-		$string .= '{"email":"'  . $i . 'a@sink.sendgrid.com"}'; 
+		$string .= '{"email":"'  . $i . '@sink.sendgrid.net"}'; 
 		if ($i != $n) {
 			$string .= ",";
 		} else {
